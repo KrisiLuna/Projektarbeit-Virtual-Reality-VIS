@@ -40333,6 +40333,89 @@ Transform:
   - {fileID: 1772120154}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &995391009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 995391012}
+  - component: {fileID: 995391011}
+  - component: {fileID: 995391010}
+  m_Layer: 0
+  m_Name: Wasserstrahl (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 0
+--- !u!23 &995391010
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995391009}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b3cf26ef034c06a4ab33ff93eb7e2f50, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &995391011
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995391009}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &995391012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995391009}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.12077, y: 0.031089999, z: 0.20114}
+  m_LocalScale: {x: 0.00051019853, y: 0.0052793683, z: 0.00051019853}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1172745092}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1003701727
 GameObject:
   m_ObjectHideFlags: 0
@@ -40950,12 +41033,6 @@ PrefabInstance:
 --- !u!4 &1080440652 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 728623117809526291, guid: fac8ea5f7e23ef146ba0235654768433,
-    type: 3}
-  m_PrefabInstance: {fileID: 1080440651}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1080440653 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2679168539055495388, guid: fac8ea5f7e23ef146ba0235654768433,
     type: 3}
   m_PrefabInstance: {fileID: 1080440651}
   m_PrefabAsset: {fileID: 0}
@@ -43315,6 +43392,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7045310637421201025, guid: e2361be151888a842bd267afb8aa73f1,
         type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045310637421201025, guid: e2361be151888a842bd267afb8aa73f1,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -43598,9 +43680,21 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -4216859302048453862, guid: e2361be151888a842bd267afb8aa73f1,
         type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 995391012}
+    - targetCorrespondingSourceObject: {fileID: -4216859302048453862, guid: e2361be151888a842bd267afb8aa73f1,
+        type: 3}
       insertIndex: -1
       addedObject: {fileID: 1949403709}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -7045310637421201025, guid: e2361be151888a842bd267afb8aa73f1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1172745095}
+    - targetCorrespondingSourceObject: {fileID: -7045310637421201025, guid: e2361be151888a842bd267afb8aa73f1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1172745094}
   m_SourcePrefab: {fileID: 100100000, guid: e2361be151888a842bd267afb8aa73f1, type: 3}
 --- !u!4 &1172745092 stripped
 Transform:
@@ -43608,6 +43702,76 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1172745091}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1172745093 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7045310637421201025, guid: e2361be151888a842bd267afb8aa73f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1172745091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1172745094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172745093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59fe722e016ecae438f59fbf21af3ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredTag: Wasserhahn
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 995391009}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  OnExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 995391009}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!65 &1172745095
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172745093}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0068100686, y: 0.0054598064, z: 0.010176484}
+  m_Center: {x: 0.00089822116, y: -0.000008683071, z: -0.0011190407}
 --- !u!1 &1181112809
 GameObject:
   m_ObjectHideFlags: 0
@@ -45767,9 +45931,10 @@ GameObject:
   - component: {fileID: 1252734391}
   - component: {fileID: 1252734390}
   - component: {fileID: 1252734389}
+  - component: {fileID: 1252734393}
   m_Layer: 0
   m_Name: RightHand Controller
-  m_TagString: Untagged
+  m_TagString: Wasserhahn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46206,6 +46371,33 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_ButtonPressPoint: 0.5
+--- !u!54 &1252734393
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252734387}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1254940806
 GameObject:
   m_ObjectHideFlags: 0
@@ -50653,7 +50845,7 @@ PrefabInstance:
     - target: {fileID: 5438928142817428863, guid: a065e9fed0d45314090a9e8a95e5ce29,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.332
+      value: 14.151
       objectReference: {fileID: 0}
     - target: {fileID: 5438928142817428863, guid: a065e9fed0d45314090a9e8a95e5ce29,
         type: 3}
@@ -52526,8 +52718,6 @@ GameObject:
   - component: {fileID: 1592767693}
   - component: {fileID: 1592767696}
   - component: {fileID: 1592767695}
-  - component: {fileID: 1592767694}
-  - component: {fileID: 1592767697}
   m_Layer: 0
   m_Name: Wasserstrahl
   m_TagString: Untagged
@@ -52550,29 +52740,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 797257482}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &1592767694
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592767692}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &1592767695
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52623,37 +52790,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592767692}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1592767697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592767692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59fe722e016ecae438f59fbf21af3ecf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  requiredTag: 
-  OnEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1080440653}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  OnExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1605851754
 GameObject:
   m_ObjectHideFlags: 0
@@ -56226,9 +56362,10 @@ GameObject:
   - component: {fileID: 1850251928}
   - component: {fileID: 1850251926}
   - component: {fileID: 1850251927}
+  - component: {fileID: 1850251931}
   m_Layer: 0
   m_Name: LeftHand Controller
-  m_TagString: Untagged
+  m_TagString: Wasserhahn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56665,6 +56802,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 554479002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1850251931
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850251925}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1850677999
 GameObject:
   m_ObjectHideFlags: 0
@@ -62889,6 +63053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cucumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 9147568307565221949, guid: 03d8bc6cfd601894a82b6de438d60deb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
