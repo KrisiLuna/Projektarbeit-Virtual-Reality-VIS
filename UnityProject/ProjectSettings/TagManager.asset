@@ -8,6 +8,8 @@ TagManager:
   - Wasserhahn
   - WasserInTopf
   - ReisKochen
+  - Messer
+  - KleinerTopf
   layers:
   - Default
   - TransparentFX
