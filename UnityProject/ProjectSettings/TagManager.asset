@@ -10,6 +10,12 @@ TagManager:
   - ReisKochen
   - Messer
   - KleinerTopf
+  - SalzW
+  - EssigW
+  - ZuckerW
+  - Rice1
+  - Rice2
+  - TopfZSE
   layers:
   - Default
   - TransparentFX
