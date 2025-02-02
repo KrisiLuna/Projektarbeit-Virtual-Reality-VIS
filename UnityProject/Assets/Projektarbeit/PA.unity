@@ -1074,12 +1074,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16937925}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.1037479, z: 0}
+  m_LocalScale: {x: 1, y: 2.5936973, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1943564980}
+  m_Father: {fileID: 1226249705}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &16937927
 MonoBehaviour:
@@ -3058,7 +3058,7 @@ PrefabInstance:
     - target: {fileID: 5831311612882683994, guid: 85147b24527a7784f9b822bff927c869,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0361
+      value: 0.0344
       objectReference: {fileID: 0}
     - target: {fileID: 5831311612882683994, guid: 85147b24527a7784f9b822bff927c869,
         type: 3}
@@ -50973,7 +50973,7 @@ PrefabInstance:
     - target: {fileID: 1522350492492062035, guid: e2361be151888a842bd267afb8aa73f1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1162
+      value: 0.11796
       objectReference: {fileID: 0}
     - target: {fileID: 1522350492492062035, guid: e2361be151888a842bd267afb8aa73f1,
         type: 3}
@@ -53275,7 +53275,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 91c9071ddf055d84d91c074c344ce02d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 728623117809526291, guid: fac8ea5f7e23ef146ba0235654768433,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 16937926}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2679168539055495388, guid: fac8ea5f7e23ef146ba0235654768433,
         type: 3}
@@ -71651,10 +71655,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 436650652}
-    - targetCorrespondingSourceObject: {fileID: 7573554804871920745, guid: 0b8cfe9654b9f4e47b23a768f8b38415,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 16937926}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9159477013348515265, guid: 0b8cfe9654b9f4e47b23a768f8b38415,
         type: 3}
