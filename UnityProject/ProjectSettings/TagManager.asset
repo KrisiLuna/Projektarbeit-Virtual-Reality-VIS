@@ -16,6 +16,15 @@ TagManager:
   - Rice1
   - Rice2
   - TopfZSE
+  - "F\xFCllungAufNori"
+  - "WasserInTopf\xFC"
+  - "ReisKochen\xFC"
+  - "SalzW\xFC"
+  - "ZuckerW\xFC"
+  - "EssigW\xFC"
+  - "TopfZSE\xFC"
+  - "Rice1\xFC"
+  - "F\xFCllungAufNori\xFC"
   layers:
   - Default
   - TransparentFX
