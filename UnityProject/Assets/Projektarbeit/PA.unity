@@ -37637,8 +37637,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   candleLight: {fileID: 480308690}
-  minIntensity: 0.1
-  maxIntensity: 0.2
+  minIntensity: 0.01
+  maxIntensity: 0.06
   flickerSpeed: 0.1
 --- !u!114 &480308689
 MonoBehaviour:
@@ -56979,8 +56979,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   candleLight: {fileID: 1091077885}
-  minIntensity: 0.1
-  maxIntensity: 0.2
+  minIntensity: 0.01
+  maxIntensity: 0.06
   flickerSpeed: 0.1
 --- !u!114 &1091077884
 MonoBehaviour:
@@ -60422,8 +60422,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   candleLight: {fileID: 1167403957}
-  minIntensity: 0.1
-  maxIntensity: 0.2
+  minIntensity: 0.01
+  maxIntensity: 0.06
   flickerSpeed: 0.1
 --- !u!114 &1167403956
 MonoBehaviour:
@@ -71801,8 +71801,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   candleLight: {fileID: 1442297159}
-  minIntensity: 0.1
-  maxIntensity: 0.2
+  minIntensity: 0.01
+  maxIntensity: 0.06
   flickerSpeed: 0.1
 --- !u!114 &1442297158
 MonoBehaviour:
@@ -90389,8 +90389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   candleLight: {fileID: 1996741170}
-  minIntensity: 0.1
-  maxIntensity: 0.2
+  minIntensity: 0.01
+  maxIntensity: 0.06
   flickerSpeed: 0.1
 --- !u!114 &1996741169
 MonoBehaviour:
