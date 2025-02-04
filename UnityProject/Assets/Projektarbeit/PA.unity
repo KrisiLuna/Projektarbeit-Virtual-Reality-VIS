@@ -56980,7 +56980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   candleLight: {fileID: 1091077885}
   minIntensity: 0.001
-  maxIntensity: 0.05
+  maxIntensity: 0.005
   flickerSpeed: 0.1
 --- !u!114 &1091077884
 MonoBehaviour:
@@ -57018,7 +57018,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.82451373, b: 0.495283, a: 1}
   m_Intensity: 0.001
-  m_Range: 0.4
+  m_Range: 0.2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -57076,7 +57076,7 @@ Transform:
   m_GameObject: {fileID: 1091077882}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2425, y: 0.6984, z: 3.6378}
+  m_LocalPosition: {x: 0.2425, y: 0.7033, z: 3.6378}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -60403,7 +60403,7 @@ Transform:
   m_GameObject: {fileID: 1167403953}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.3117, y: 0.1354, z: -1.2514}
+  m_LocalPosition: {x: -5.3117, y: 0.1401, z: -1.2501}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -60459,7 +60459,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9529412, g: 0.5150239, b: 0.2470588, a: 1}
+  m_Color: {r: 0.9529412, g: 0.48235294, b: 0.2509804, a: 1}
   m_Intensity: 0.001
   m_Range: 0.2
   m_SpotAngle: 30
@@ -71782,7 +71782,7 @@ Transform:
   m_GameObject: {fileID: 1442297155}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.2653, y: 0.0993, z: -1.1616}
+  m_LocalPosition: {x: -5.2645, y: 0.1053, z: -1.1625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -71838,7 +71838,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9529412, g: 0.54768074, b: 0.25098035, a: 1}
+  m_Color: {r: 0.9529412, g: 0.48235294, b: 0.25098035, a: 1}
   m_Intensity: 0.001
   m_Range: 0.2
   m_SpotAngle: 30
@@ -90390,7 +90390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   candleLight: {fileID: 1996741170}
   minIntensity: 0.001
-  maxIntensity: 0.08
+  maxIntensity: 0.008
   flickerSpeed: 0.1
 --- !u!114 &1996741169
 MonoBehaviour:
@@ -90428,7 +90428,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.8258616, b: 0.4575472, a: 1}
   m_Intensity: 0.001
-  m_Range: 0.4
+  m_Range: 0.2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -90486,7 +90486,7 @@ Transform:
   m_GameObject: {fileID: 1996741167}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1694, y: 0.6679, z: 3.5826}
+  m_LocalPosition: {x: 0.1694, y: 0.6693, z: 3.5826}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
