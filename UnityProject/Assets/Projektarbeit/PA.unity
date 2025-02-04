@@ -37637,8 +37637,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   candleLight: {fileID: 480308690}
-  minIntensity: 0.01
-  maxIntensity: 0.06
+  minIntensity: 0.001
+  maxIntensity: 0.05
   flickerSpeed: 0.1
 --- !u!114 &480308689
 MonoBehaviour:
@@ -37674,7 +37674,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9529412, g: 0.56078434, b: 0.2509804, a: 1}
+  m_Color: {r: 0.9529412, g: 0.4842117, b: 0.25098035, a: 1}
   m_Intensity: 0.001
   m_Range: 0.48
   m_SpotAngle: 30
@@ -56979,8 +56979,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   candleLight: {fileID: 1091077885}
-  minIntensity: 0.01
-  maxIntensity: 0.06
+  minIntensity: 0.001
+  maxIntensity: 0.05
   flickerSpeed: 0.1
 --- !u!114 &1091077884
 MonoBehaviour:
@@ -57016,7 +57016,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.6673826, b: 0.3066038, a: 1}
+  m_Color: {r: 1, g: 0.45603582, b: 0.2216981, a: 1}
   m_Intensity: 0.001
   m_Range: 0.48
   m_SpotAngle: 30
@@ -60422,8 +60422,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   candleLight: {fileID: 1167403957}
-  minIntensity: 0.01
-  maxIntensity: 0.06
+  minIntensity: 0.001
+  maxIntensity: 0.05
   flickerSpeed: 0.1
 --- !u!114 &1167403956
 MonoBehaviour:
@@ -60459,7 +60459,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9528302, g: 0.558092, b: 0.24719654, a: 1}
+  m_Color: {r: 0.9529412, g: 0.5150239, b: 0.2470588, a: 1}
   m_Intensity: 0.001
   m_Range: 0.48
   m_SpotAngle: 30
@@ -71838,7 +71838,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9529412, g: 0.56078434, b: 0.2509804, a: 1}
+  m_Color: {r: 0.9529412, g: 0.54768074, b: 0.25098035, a: 1}
   m_Intensity: 0.001
   m_Range: 0.48
   m_SpotAngle: 30
@@ -90389,8 +90389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   candleLight: {fileID: 1996741170}
-  minIntensity: 0.01
-  maxIntensity: 0.06
+  minIntensity: 0.001
+  maxIntensity: 0.05
   flickerSpeed: 0.1
 --- !u!114 &1996741169
 MonoBehaviour:
@@ -90426,7 +90426,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.77262455, b: 0.4575472, a: 1}
+  m_Color: {r: 1, g: 0.43158212, b: 0.1273585, a: 1}
   m_Intensity: 0.001
   m_Range: 0.48
   m_SpotAngle: 30
